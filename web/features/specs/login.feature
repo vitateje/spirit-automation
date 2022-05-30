@@ -1,6 +1,5 @@
             #language: pt
 
-
             Funcionalidade: Login
 
             Sendo um usuário da Ecore

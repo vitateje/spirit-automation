@@ -1,7 +1,6 @@
 Before do
   @invoice_page = InvoicePage.new
   @login_page = LoginPage.new
-  @invoice_page_elements = InvoicePageElements.new
   #   page.driver.browser.manage.window.maximize
   page.current_window.resize_to(1440, 900)
 end
