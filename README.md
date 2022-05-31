@@ -7,13 +7,14 @@
 ```
     pamac install ruby rubygems ruby-rdoc
 ```
+
     add gem in the path:
 
-    nano ~/.bashrc
+    `nano ~/.bashrc`
 
     export PATH="/home/$USER/.gem/ruby/3.0.0/bin:$PATH" 
 
-    put chromedriver in path /src/bin (accordingly with your chrome version)
+   `put chromedriver in path /src/bin (accordingly with your chrome version)`
 
     install the package manager:
 
