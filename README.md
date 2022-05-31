@@ -1,12 +1,12 @@
 # spirit - automation framework in ruby
-* *  for: WEB and API:
+**  for: WEB and API:
 
 * To Install:
 
-    install ruby and ruby gems:                                                                                 A0
-
+    install ruby and ruby gems:
+```
     pamac install ruby rubygems ruby-rdoc
-
+```
     add gem in the path:
 
     nano ~/.bashrc
