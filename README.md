@@ -1,8 +1,9 @@
-# e-core:
+# spirit - automation framework in ruby
+* *  for: WEB and API:
 
 * To Install:
 
-    install ruby and ruby gems:
+    install ruby and ruby gems:                                                                                 A0
 
     pamac install ruby rubygems ruby-rdoc
 
