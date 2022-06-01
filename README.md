@@ -27,9 +27,3 @@
 
 * to run the API tests:
     `rspec --format html --out rspec_results.html` in automation\api
-
-* install java8 jdk
-* install allure-cucumber
-
-command: allure serve logs\
-#
