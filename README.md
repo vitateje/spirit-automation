@@ -1,29 +1,46 @@
 # spirit - automation framework in ruby
 ##  for: WEB and API:
 
-* ### to install:
+* ### to installation:
 
-    install ruby and ruby gems:
+    - install ruby with devkit:
+
+    https://rubyinstaller.org/downloads/
+
+    run (in manjaro):
 
     `pamac install ruby rubygems ruby-rdoc`
 
-    add gem in the path:
+    - install the package manager
+
+    `gem install bundler` ( instala o gerenciador de pacotes )
+
+    - download chromedriver (accordingly with your chrome version)
+
+   [Chromedriver](https://chromedriver.chromium.org/downloads)   
+
+    - add chromedriver in the system path /src/bin
+
+   [Adding Path](https://zwbetz.com/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/) 
+
+    - add gem in the path:
 
     `nano ~/.bashrc`
 
     `export PATH="/home/$USER/.gem/ruby/3.0.0/bin:$PATH"`
 
-   - put chromedriver in path /src/bin (accordingly with your chrome version)
+    - install the dependecies
 
-    install the package manager:
+    `bundle install` ( instala bibliotecas adicionadas e dependências )
 
-   `gem install bundler` ( instala o gerenciador de pacotes )
+    - to run the UI tests:
 
-   `bundle install` ( instala bibliotecas adicionadas e dependências )
+    `cd automation/web`
 
-
-* to run and generate report in html (UI):
     `cucumber`
 
-* to run the API tests:
-    `rspec --format html --out rspec_results.html` in automation\api
+    - to run the API tests:
+
+    `cd automation/api`
+    
+    `rspec --format html --out rspec_results.html`
